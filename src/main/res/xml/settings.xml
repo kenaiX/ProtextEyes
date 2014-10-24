@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="zhichi"
+        android:title="评价kenai" >
+    </PreferenceScreen>
+    <PreferenceCategory android:title="kenai旗舰" >
+        
+    <PreferenceScreen
+        android:key="buy"
+        android:title="melody" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="tuijian_dream"
+        android:title="魅手势" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="主要设置" >
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="autostart"
+            android:summaryOff="关闭"
+            android:summaryOn="开启（需要安装在手机内存中）"
+            android:title="开机自启" />
+    <PreferenceScreen android:title="细节设置" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pt_word"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="文字提醒" />
+
+        <EditTextPreference
+            android:defaultValue="30"
+            android:dialogTitle="多久后需要休息？（单位：分钟）"
+            android:key="pt_shixian"
+            android:title="提醒时间" />
+        <EditTextPreference
+            android:defaultValue="6"
+            android:dialogTitle="需要休息多久？（单位：分钟）"
+            android:key="pt_xiuxi"
+            android:title="休息时间" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="xunhuan_tixing"
+            android:summaryOff="关闭"
+            android:title="循环提醒" />
+
+        <EditTextPreference
+            android:defaultValue="5"
+            android:dialogTitle="到时后循环提醒间隔（单位：分钟）"
+            android:key="pt_xunhuan"
+            android:title="循环时间" />
+    </PreferenceScreen>
+</PreferenceCategory>
+    <PreferenceCategory android:title="其它" >
+        
+<PreferenceScreen android:title="kenai软件" >
+        <PreferenceScreen
+            android:key="tuijian1"
+            android:title="melody" />
+        <PreferenceScreen
+            android:key="tuijian13"
+            android:summaryOn="调试中，敬请期待"
+            android:title="魅手势" />
+        <PreferenceScreen
+            android:key="tuijian14"
+            android:summary="去积分版"
+            android:title="魅电量up" />
+        <PreferenceScreen
+            android:key="tuijian10"
+            android:title="魅电量" />
+        <PreferenceScreen
+            android:key="tuijian11"
+            android:title="魅流量" />
+        <PreferenceScreen
+            android:key="tuijian9"
+            android:title="魅重拨" />
+        <PreferenceScreen
+            android:key="tuijian2"
+            android:title="kenai线控" />
+        <PreferenceScreen
+            android:key="tuijian3"
+            android:title="kenai锁屏" />
+        <PreferenceScreen
+            android:key="tuijian7"
+            android:title="kenai静音" />
+        <PreferenceScreen
+            android:key="tuijian8"
+            android:title="kenai护眼" />
+        <PreferenceScreen
+            android:key="tuijian12"
+            android:title="魅电量（简版）" />
+        
+
+        <PreferenceCategory android:title="其它推荐" >
+            <PreferenceScreen
+                android:key="tuijian6"
+                android:title="小u省电" />
+            <PreferenceScreen
+                android:key="tuijian4"
+                android:title="T-T轻松防盗" />
+            <PreferenceScreen
+                android:key="tuijian5"
+                android:title="T-T短信导出" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+        <PreferenceScreen
+            android:key="call"
+            android:title="联系作者" />
+        <PreferenceScreen
+            android:key="Esc"
+            android:title="完全退出" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
